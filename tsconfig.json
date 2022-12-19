@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"module": "commonjs",
+		"esModuleInterop": true,
+		"target": "es5",
+		"noImplicitAny": true,
+		"moduleResolution": "node",
+		"declaration": true,
+		"outDir": "./lib",
+		"baseUrl": ".",
+		"lib": ["ES2021.String", "ES7", "DOM"],
+		"resolveJsonModule": true
+	},
+	"include": ["src"],
+	"exlude": ["node_modules"]
+}
