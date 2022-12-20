@@ -3,8 +3,8 @@
 	"publishConfig": {
 		"@visionsofficial/registry": "https://npm.pkg.github.com"
 	},
-	"version": "0.0.1",
-	"description": "",
+	"version": "1.0.0",
+	"description": "visionsTrust API public models",
 	"main": "lib/index.js",
 	"scripts": {
 		"build": "rimraf lib/ && tsc",
