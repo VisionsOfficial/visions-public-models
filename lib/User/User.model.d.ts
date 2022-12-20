@@ -25,7 +25,6 @@
 import { Schema } from "mongoose";
 import { IUser } from "./user";
 /**
- * Copyright 2022 Visions
  * User registered in Visions, acting as the user's central account
  */
 export declare const userSchema: Schema<IUser, import("mongoose").Model<IUser, any, any, any, any>, {}, {}, {}, {}, import("mongoose").DefaultSchemaOptions, IUser>;
