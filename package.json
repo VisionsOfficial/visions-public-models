@@ -3,9 +3,10 @@
 	"publishConfig": {
 		"@visionsofficial/registry": "https://npm.pkg.github.com"
 	},
-	"version": "1.0.0",
-	"description": "visionsTrust API public models",
+	"version": "1.0.1",
+	"description": "VisionsTrust API public models",
 	"main": "lib/index.js",
+	"repository": {},
 	"scripts": {
 		"build": "rimraf lib/ && tsc",
 		"test": "exit 0"
@@ -16,8 +17,15 @@
 		"CHANGELOG.md",
 		"README.md"
 	],
-	"keywords": [],
+	"keywords": [
+		"visions",
+		"visionstrust",
+		"datamodels"
+	],
 	"author": "Felix Bole",
+	"maintainers": [
+		"Felix Bole"
+	],
 	"license": "MIT",
 	"devDependencies": {
 		"rimraf": "^3.0.2",

@@ -1,23 +1,23 @@
-# visions-models
+# Visions Public Models
 
-Official Visions used data models for the VisionsTrust API
+Official Visions base data models for the VisionsTrust API
 
 ## About
 
-This repository contains the data models used by the VisionsTrust API.
+This repository contains the base data models used by the VisionsTrust API.
 
 ## Getting started
 
-Install visions-models as an npm or pnpm module and save it to your package.json file as a dependancy
+This repository is available as a github npm package. If you wish to use it like so, please follow the github documentation on how to install a package from the github registry. You can install it using npm and save it to your package.json file as a dependency.
 
 ```bash
-pnpm install @visionsofficial/visions-models
+npm install @visionsofficial/visions-public-models
 ```
 
-Once installed it cas now be references by simply calling
+Once installed it can now be referenced by simply calling
 
 ```javascript
-import models from "@visionsofficial/visions-models";
+import models from "@visionsofficial/visions-public-models";
 ```
 
 ## License
