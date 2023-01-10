@@ -1,5 +1,5 @@
 import { Schema } from "mongoose";
-import { IDataUseExchangeModel } from "./datauseexchange";
+import { IDataUseExchangeModel } from "../typings/datauseexchange";
 
 export const statics = (schema: Schema<IDataUseExchangeModel>) => {
 	schema.statics.findByServiceList = async function (serviceList: string[]) {

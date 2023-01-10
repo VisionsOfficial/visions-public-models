@@ -1,2 +1,2 @@
-import { IDataUseExchangeModel } from "./datauseexchange";
+import { IDataUseExchangeModel } from "../typings/datauseexchange";
 export declare const DataUseExchange: IDataUseExchangeModel;

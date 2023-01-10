@@ -1,5 +1,5 @@
 import { Schema, Types } from "mongoose";
-import { IDatasetTermsOfUse } from "./datasettermsofuse";
+import { IDatasetTermsOfUse } from "../typings/datasettermsofuse";
 
 export const datasetTermsOfUseSchema = new Schema<IDatasetTermsOfUse>(
 	{

@@ -1,5 +1,5 @@
 import { Schema, Types } from "mongoose";
-import { IDatasetRequest } from "./datasetrequest";
+import { IDatasetRequest } from "../typings/datasetrequest";
 
 export const datasetRequestSchema = new Schema<IDatasetRequest>(
 	{

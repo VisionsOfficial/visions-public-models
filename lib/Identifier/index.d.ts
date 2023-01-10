@@ -23,5 +23,5 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose" />
 /// <reference types="mongoose/types/inferschematype" />
-import { IIdentifier } from "./identifier";
+import { IIdentifier } from "../typings/identifier";
 export declare const Identifier: import("mongoose").Model<IIdentifier, {}, {}, {}, any>;

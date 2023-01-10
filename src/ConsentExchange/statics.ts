@@ -1,5 +1,5 @@
 import { Schema, Types } from "mongoose";
-import { IMarketplaceAccessModel } from "src/MarketplaceAccess/marketplaceaccess";
+import { IMarketplaceAccessModel } from "src/typings/marketplaceaccess";
 
 export const statics = (schema: Schema<IMarketplaceAccessModel>) => {
 	schema.statics.findLastExportForService = function (serviceId: string) {

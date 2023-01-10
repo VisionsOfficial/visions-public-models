@@ -23,7 +23,7 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose/types/inferschematype" />
 import { Schema } from "mongoose";
-import { IExchangeAuthorization, IExchangeAuthorizationMethods, IExchangeAuthorizationModel } from "./exchangeauthorization";
+import { IExchangeAuthorization, IExchangeAuthorizationMethods, IExchangeAuthorizationModel } from "../typings/exchangeauthorization";
 /**
  * The General Exchange Authorization between 2 services
  */

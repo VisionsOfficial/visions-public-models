@@ -3,7 +3,7 @@ import {
 	IExchangeAuthorization,
 	IExchangeAuthorizationMethods,
 	IExchangeAuthorizationModel,
-} from "./exchangeauthorization";
+} from "../typings/exchangeauthorization";
 
 type Options = {
 	populate?: boolean;

@@ -23,7 +23,7 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose/types/inferschematype" />
 import { Schema } from "mongoose";
-import { IIdentifier } from "./identifier";
+import { IIdentifier } from "../typings/identifier";
 /**
  * Reference to a user's identity in one service
  * Serves as an ID card to know if a user has some information

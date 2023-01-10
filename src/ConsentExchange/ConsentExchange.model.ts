@@ -1,5 +1,5 @@
 import { Schema, Types } from "mongoose";
-import { IConsentExchange } from "./consentexchange";
+import { IConsentExchange } from "../typings/consentexchange";
 
 /**
  * Created when a user gives his consent for a service to

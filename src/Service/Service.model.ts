@@ -1,5 +1,5 @@
 import { Schema, Types } from "mongoose";
-import { IService } from "./service";
+import { IService } from "../typings/service";
 
 export const serviceSchema = new Schema<IService>(
 	{

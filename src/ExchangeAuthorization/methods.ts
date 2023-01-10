@@ -4,7 +4,7 @@ import {
 	IExchangeAuthorizationMethods,
 	IExchangeAuthorizationModel,
 	QueryOptions,
-} from "./exchangeauthorization";
+} from "../typings/exchangeauthorization";
 
 const DEFAULT_STATUS_OPTIONS = {
 	populated: false,

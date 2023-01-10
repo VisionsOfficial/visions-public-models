@@ -1,5 +1,5 @@
 import { Schema, Types } from "mongoose";
-import { IMarketplaceAccess } from "./marketplaceaccess";
+import { IMarketplaceAccess } from "../typings/marketplaceaccess";
 
 /**
  * The list of services of a category that have agreed to the marketplace access

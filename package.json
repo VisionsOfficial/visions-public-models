@@ -3,12 +3,13 @@
 	"publishConfig": {
 		"@visionsofficial/registry": "https://npm.pkg.github.com"
 	},
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "VisionsTrust API public models",
 	"main": "lib/index.js",
 	"repository": {},
 	"scripts": {
-		"build": "rimraf lib/ && tsc",
+		"build": "rimraf lib/ && tsc && pnpm run copy:types",
+		"copy:types": "cp -r src/typings/ lib/",
 		"test": "exit 0"
 	},
 	"files": [

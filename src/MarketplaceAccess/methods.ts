@@ -1,5 +1,5 @@
 import { Schema, Types } from "mongoose";
-import { IMarketplaceAccess } from "./marketplaceaccess";
+import { IMarketplaceAccess } from "../typings/marketplaceaccess";
 
 export const methods = (schema: Schema<IMarketplaceAccess>) => {
 	/**

@@ -23,5 +23,5 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose" />
 /// <reference types="mongoose/types/inferschematype" />
-import { ISSOApplication } from "./ssoapplication";
+import { ISSOApplication } from "../typings/ssoapplication";
 export declare const SSOApplication: import("mongoose").Model<ISSOApplication, {}, {}, {}, any>;

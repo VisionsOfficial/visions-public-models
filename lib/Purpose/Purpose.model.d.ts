@@ -23,7 +23,7 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose/types/inferschematype" />
 import { Schema } from "mongoose";
-import { IPurpose } from "./purpose";
+import { IPurpose } from "../typings/purpose";
 /**
  * What a service uses requested data for
  */

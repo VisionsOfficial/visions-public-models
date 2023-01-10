@@ -1,2 +1,2 @@
-import { IExchangeAuthorizationModel } from "./exchangeauthorization";
+import { IExchangeAuthorizationModel } from "../typings/exchangeauthorization";
 export declare const ExchangeAuthorization: IExchangeAuthorizationModel;

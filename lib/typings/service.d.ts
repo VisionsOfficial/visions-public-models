@@ -1,8 +1,8 @@
 import { HydratedDocument, Model, Types } from "mongoose";
-import { IDataType } from "src/DataType/datatype";
-import { IIdentifier } from "src/Identifier/identifier";
+import { IDataType } from "src/typings/datatype";
+import { IIdentifier } from "src/typings/identifier";
 import { AllSchemas } from "src/models";
-import { IPurpose } from "src/Purpose/purpose";
+import { IPurpose } from "src/typings/purpose";
 
 type ServiceChecks = {
 	isUsingSSO: boolean;

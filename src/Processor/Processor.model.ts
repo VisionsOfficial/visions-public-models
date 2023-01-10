@@ -1,5 +1,5 @@
 import { Schema, Types } from "mongoose";
-import { IProcessor } from "./processor";
+import { IProcessor } from "../typings/processor";
 
 export const processorSchema = new Schema<IProcessor>({
 	service: {

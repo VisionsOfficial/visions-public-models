@@ -23,5 +23,5 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose" />
 /// <reference types="mongoose/types/inferschematype" />
-import { IGlobalDataType } from "./globaldatatype";
+import { IGlobalDataType } from "../typings/globaldatatype";
 export declare const GlobalDataType: import("mongoose").Model<IGlobalDataType, {}, {}, {}, any>;

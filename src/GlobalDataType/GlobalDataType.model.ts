@@ -1,5 +1,5 @@
 import { Schema } from "mongoose";
-import { IGlobalDataType } from "./globaldatatype";
+import { IGlobalDataType } from "../typings/globaldatatype";
 
 export const globalDataTypeSchema = new Schema<IGlobalDataType>(
 	{

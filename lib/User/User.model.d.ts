@@ -23,7 +23,7 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose/types/inferschematype" />
 import { Schema } from "mongoose";
-import { IUser } from "./user";
+import { IUser } from "../typings/user";
 /**
  * User registered in Visions, acting as the user's central account
  */

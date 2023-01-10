@@ -1,5 +1,5 @@
 import { Schema, Types } from "mongoose";
-import { IDataTypeField } from "./datatypefield";
+import { IDataTypeField } from "../typings/datatypefield";
 
 export const dataTypeFieldSchema = new Schema<IDataTypeField>(
 	{

@@ -23,5 +23,5 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose/types/inferschematype" />
 import { Schema } from "mongoose";
-import { IDataType } from "./datatype";
+import { IDataType } from "../typings/datatype";
 export declare const dataTypeSchema: Schema<IDataType, import("mongoose").Model<IDataType, any, any, any, any>, {}, {}, {}, {}, import("mongoose").DefaultSchemaOptions, IDataType>;

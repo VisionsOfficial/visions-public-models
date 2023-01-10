@@ -2,7 +2,7 @@ import { model, Types } from "mongoose";
 import {
 	IMarketplaceAccess,
 	IMarketplaceAccessModel,
-} from "./marketplaceaccess";
+} from "../typings/marketplaceaccess";
 import { marketplaceAccessSchema } from "./MarketplaceAccess.model";
 
 export const MarketplaceAccess = model<

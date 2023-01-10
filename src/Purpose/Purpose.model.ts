@@ -1,5 +1,5 @@
 import { Schema, Types } from "mongoose";
-import { IPurpose } from "./purpose";
+import { IPurpose } from "../typings/purpose";
 
 /**
  * What a service uses requested data for

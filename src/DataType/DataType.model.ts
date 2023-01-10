@@ -1,5 +1,5 @@
 import { Schema, Types } from "mongoose";
-import { IDataType } from "./datatype";
+import { IDataType } from "../typings/datatype";
 
 export const dataTypeSchema = new Schema<IDataType>(
 	{

@@ -3,7 +3,7 @@ import {
 	IExchangeAuthorization,
 	IExchangeAuthorizationMethods,
 	IExchangeAuthorizationModel,
-} from "./exchangeauthorization";
+} from "../typings/exchangeauthorization";
 
 /**
  * The General Exchange Authorization between 2 services

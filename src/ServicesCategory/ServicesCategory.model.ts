@@ -1,5 +1,5 @@
 import { Schema, Types } from "mongoose";
-import { IServicesCategory } from "./servicescategory";
+import { IServicesCategory } from "../typings/servicescategory";
 
 export const servicesCategorySchema = new Schema<IServicesCategory>(
 	{

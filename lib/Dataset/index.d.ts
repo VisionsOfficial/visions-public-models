@@ -23,5 +23,5 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose" />
 /// <reference types="mongoose/types/inferschematype" />
-import { IDataset } from "./dataset";
+import { IDataset } from "../typings/dataset";
 export declare const Dataset: import("mongoose").Model<IDataset, {}, {}, {}, any>;

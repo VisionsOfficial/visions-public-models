@@ -23,5 +23,5 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose/types/inferschematype" />
 import { Schema } from "mongoose";
-import { IService } from "./service";
+import { IService } from "../typings/service";
 export declare const serviceSchema: Schema<IService, import("mongoose").Model<IService, any, any, any, any>, {}, {}, {}, {}, import("mongoose").DefaultSchemaOptions, IService>;

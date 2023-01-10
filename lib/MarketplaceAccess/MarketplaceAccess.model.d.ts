@@ -23,7 +23,7 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose/types/inferschematype" />
 import { Schema } from "mongoose";
-import { IMarketplaceAccess } from "./marketplaceaccess";
+import { IMarketplaceAccess } from "../typings/marketplaceaccess";
 /**
  * The list of services of a category that have agreed to the marketplace access
  */

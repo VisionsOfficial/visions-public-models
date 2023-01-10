@@ -5,7 +5,7 @@ import { methods } from "./methods";
 import {
 	IExchangeAuthorization,
 	IExchangeAuthorizationModel,
-} from "./exchangeauthorization";
+} from "../typings/exchangeauthorization";
 
 methods(exchangeAuthorizationSchema);
 statics(exchangeAuthorizationSchema);

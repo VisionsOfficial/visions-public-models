@@ -1,5 +1,5 @@
 import { Schema, Types } from "mongoose";
-import { IIdentifier } from "./identifier";
+import { IIdentifier } from "../typings/identifier";
 
 /**
  * Reference to a user's identity in one service

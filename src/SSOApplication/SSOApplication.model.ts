@@ -1,5 +1,5 @@
 import { Schema, Types } from "mongoose";
-import { ISSOApplication } from "./ssoapplication";
+import { ISSOApplication } from "../typings/ssoapplication";
 
 export const ssoApplicationSchema = new Schema<ISSOApplication>(
 	{

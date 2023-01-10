@@ -1,5 +1,5 @@
 import { Schema, Types } from "mongoose";
-import { IMarketplaceAccess } from "./marketplaceaccess";
+import { IMarketplaceAccess } from "../typings/marketplaceaccess";
 
 export const hooks = (schema: Schema<IMarketplaceAccess>) => {
 	schema.pre("save", function (next: any) {

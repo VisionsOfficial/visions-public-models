@@ -23,7 +23,7 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose/types/inferschematype" />
 import { Schema } from "mongoose";
-import { IDataset } from "./dataset";
+import { IDataset } from "../typings/dataset";
 /**
  * Defines the data that a Data provider makes available to the network
  */

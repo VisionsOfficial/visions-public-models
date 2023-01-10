@@ -1,5 +1,5 @@
 import { Schema } from "mongoose";
-import { IService, IServiceModel } from "./service";
+import { IService, IServiceModel } from "../typings/service";
 
 export const virtuals = (schema: Schema<IService, IServiceModel>) => {
 	schema.virtual("identifiers", {

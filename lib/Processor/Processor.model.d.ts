@@ -23,5 +23,5 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose/types/inferschematype" />
 import { Schema } from "mongoose";
-import { IProcessor } from "./processor";
+import { IProcessor } from "../typings/processor";
 export declare const processorSchema: Schema<IProcessor, import("mongoose").Model<IProcessor, any, any, any, any>, {}, {}, {}, {}, import("mongoose").DefaultSchemaOptions, IProcessor>;
