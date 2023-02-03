@@ -2,6 +2,7 @@ export { ConsentExchange } from "./ConsentExchange";
 export { Dataset } from "./Dataset";
 export { DatasetRequest } from "./DatasetRequest";
 export { DatasetTermsOfUse } from "./DatasetTermsOfUse";
+export { DataSharingContract } from "./DataSharingContract";
 export { DataType } from "./DataType";
 export { DataTypeField } from "./DataTypeField";
 export { DataUseExchange } from "./DataUseExchange";

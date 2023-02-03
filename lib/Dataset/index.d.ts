@@ -23,5 +23,9 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose" />
 /// <reference types="mongoose/types/inferschematype" />
-import { IDataset } from "../typings/dataset";
+import { IDataset } from "../types/dataset";
+/**
+ * Defines the data that a Data provider makes available to the network
+ * @author Felix Bole <felix@visionspol.eu>
+ */
 export declare const Dataset: import("mongoose").Model<IDataset, {}, {}, {}, any>;

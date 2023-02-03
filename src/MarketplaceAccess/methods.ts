@@ -1,10 +1,17 @@
-import { Schema, Types } from "mongoose";
-import { IMarketplaceAccess } from "../typings/marketplaceaccess";
+import { Schema } from "mongoose";
+import {
+	IMarketplaceAccess,
+	IMarketplaceAccessMethods,
+	IMarketplaceAccessModel,
+} from "../types/marketplaceaccess";
 
-export const methods = (schema: Schema<IMarketplaceAccess>) => {
-	/**
-	 * Returns the list of services in the agreement
-	 */
+export const methods = (
+	schema: Schema<
+		IMarketplaceAccess,
+		IMarketplaceAccessModel,
+		IMarketplaceAccessMethods
+	>
+) => {
 	schema.methods.getAcceptedServicesWithIds = function (serviceIds: any[]) {
 		return serviceIds.filter((id) => this.services.includes(id));
 	};

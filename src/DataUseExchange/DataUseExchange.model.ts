@@ -1,5 +1,5 @@
 import { Schema, Types } from "mongoose";
-import { IDataUseExchange } from "../typings/datauseexchange";
+import { IDataUseExchange } from "../types/datauseexchange";
 
 /**
  * Represents a data exchange configuration between a data consumer

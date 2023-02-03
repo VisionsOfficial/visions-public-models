@@ -1,9 +1,6 @@
 import { Schema, Types } from "mongoose";
-import { IDataset } from "../typings/dataset";
+import { IDataset } from "../types/dataset";
 
-/**
- * Defines the data that a Data provider makes available to the network
- */
 export const datasetSchema = new Schema<IDataset>(
 	{
 		dataProvider: { type: Types.ObjectId, ref: "Service" },

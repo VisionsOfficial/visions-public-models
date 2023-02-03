@@ -1,7 +1,7 @@
 import { Schema } from "mongoose";
-import { IDataUseExchangeModel } from "../typings/datauseexchange";
+import { IDataUseExchange } from "../types/datauseexchange";
 
-export const statics = (schema: Schema<IDataUseExchangeModel>) => {
+export const statics = (schema: Schema<IDataUseExchange>) => {
 	schema.statics.findByServiceList = async function (serviceList: string[]) {
 		if (serviceList.length === 0) return [];
 		const query: any = { $or: [] };

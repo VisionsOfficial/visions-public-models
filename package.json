@@ -3,17 +3,18 @@
 	"publishConfig": {
 		"@visionsofficial/registry": "https://npm.pkg.github.com"
 	},
-	"version": "1.0.2",
+	"version": "1.1.0",
 	"description": "VisionsTrust API public models",
 	"main": "lib/index.js",
 	"repository": {},
 	"scripts": {
-		"build": "rimraf lib/ && tsc && pnpm run copy:types",
-		"copy:types": "cp -r src/typings/ lib/",
-		"test": "exit 0"
+		"build": "rimraf lib/* && tsc && npm run copy:types",
+		"copy:types": "cp -r src/types/ lib/",
+		"test": "node __tests__/index.spec.js"
 	},
 	"files": [
 		"lib/**/*",
+		"package.json",
 		"LICENSE",
 		"CHANGELOG.md",
 		"README.md"
@@ -34,5 +35,6 @@
 	},
 	"dependencies": {
 		"mongoose": "^6.8.0"
-	}
+	},
+	"types": "./lib/index.d.ts"
 }

@@ -23,10 +23,5 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose/types/inferschematype" />
 import { Schema } from "mongoose";
-import { IIdentifier } from "../typings/identifier";
-/**
- * Reference to a user's identity in one service
- * Serves as an ID card to know if a user has some information
- * in a service that a service registered for him
- */
+import { IIdentifier } from "../types/identifier";
 export declare const identifierSchema: Schema<IIdentifier, import("mongoose").Model<IIdentifier, any, any, any, any>, {}, {}, {}, {}, import("mongoose").DefaultSchemaOptions, IIdentifier>;

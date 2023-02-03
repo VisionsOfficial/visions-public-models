@@ -3,7 +3,7 @@ import {
 	IMarketplaceAccess,
 	IMarketplaceAccessMethods,
 	IMarketplaceAccessModel,
-} from "../typings/marketplaceaccess";
+} from "../types/marketplaceaccess";
 
 export const statics = (
 	schema: Schema<

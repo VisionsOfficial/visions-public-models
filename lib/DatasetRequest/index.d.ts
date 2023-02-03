@@ -23,5 +23,11 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose" />
 /// <reference types="mongoose/types/inferschematype" />
-import { IDatasetRequest } from "../typings/datasetrequest";
+import { IDatasetRequest } from "../types/datasetrequest";
+/**
+ * Represents a request made on a specific Dataset
+ * @author Felix Bole <felix@visionspol.eu>
+ * @unused
+ * @todo Verify relevance
+ */
 export declare const DatasetRequest: import("mongoose").Model<IDatasetRequest, {}, {}, {}, any>;

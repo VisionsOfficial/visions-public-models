@@ -1,11 +1,6 @@
 import { Schema, Types } from "mongoose";
-import { IIdentifier } from "../typings/identifier";
+import { IIdentifier } from "../types/identifier";
 
-/**
- * Reference to a user's identity in one service
- * Serves as an ID card to know if a user has some information
- * in a service that a service registered for him
- */
 export const identifierSchema = new Schema<IIdentifier>(
 	{
 		user: { type: Types.ObjectId, ref: "User" },

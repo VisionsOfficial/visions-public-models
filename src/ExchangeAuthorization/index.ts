@@ -5,11 +5,16 @@ import { methods } from "./methods";
 import {
 	IExchangeAuthorization,
 	IExchangeAuthorizationModel,
-} from "../typings/exchangeauthorization";
+} from "../types/exchangeauthorization";
 
 methods(exchangeAuthorizationSchema);
 statics(exchangeAuthorizationSchema);
 
+/**
+ * The General Exchange Authorization between 2 services
+ *
+ * @author Felix Bole <felix@visionspol.eu>
+ */
 export const ExchangeAuthorization = model<
 	IExchangeAuthorization,
 	IExchangeAuthorizationModel

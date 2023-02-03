@@ -1,5 +1,14 @@
 import { model } from "mongoose";
-import { IService } from "../typings/service";
+import { IService, IServiceModel } from "../types/service";
 import { serviceSchema } from "./Service.model";
+import { virtuals } from "./virtuals";
 
-export const Service = model<IService>("Service", serviceSchema);
+virtuals(serviceSchema);
+
+/**
+ * Represents a data provider or data user
+ * @author Matthias De Bièvre
+ * @author Yanick Kifack
+ * @author Felix Bole <felix@visionspol.eu>
+ */
+export const Service = model<IService, IServiceModel>("Service", serviceSchema);

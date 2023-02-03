@@ -23,7 +23,7 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose/types/inferschematype" />
 import { Schema } from "mongoose";
-import { IDataUseExchange } from "../typings/datauseexchange";
+import { IDataUseExchange } from "../types/datauseexchange";
 /**
  * Represents a data exchange configuration between a data consumer
  * and one or more data providers

@@ -23,5 +23,5 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose/types/inferschematype" />
 import { Schema } from "mongoose";
-import { IDatasetTermsOfUse } from "../typings/datasettermsofuse";
+import { IDatasetTermsOfUse } from "../types/datasettermsofuse";
 export declare const datasetTermsOfUseSchema: Schema<IDatasetTermsOfUse, import("mongoose").Model<IDatasetTermsOfUse, any, any, any, any>, {}, {}, {}, {}, import("mongoose").DefaultSchemaOptions, IDatasetTermsOfUse>;

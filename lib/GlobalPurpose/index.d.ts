@@ -23,5 +23,9 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose" />
 /// <reference types="mongoose/types/inferschematype" />
-import { IGlobalPurpose } from "../typings/globalpurpose";
+import { IGlobalPurpose } from "../types/globalpurpose";
+/**
+ * Represents a category a Purpose can belong to
+ * @author Yanick Kifack
+ */
 export declare const GlobalPurpose: import("mongoose").Model<IGlobalPurpose, {}, {}, {}, any>;

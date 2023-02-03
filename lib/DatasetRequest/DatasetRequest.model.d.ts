@@ -23,5 +23,5 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose/types/inferschematype" />
 import { Schema } from "mongoose";
-import { IDatasetRequest } from "../typings/datasetrequest";
+import { IDatasetRequest } from "../types/datasetrequest";
 export declare const datasetRequestSchema: Schema<IDatasetRequest, import("mongoose").Model<IDatasetRequest, any, any, any, any>, {}, {}, {}, {}, import("mongoose").DefaultSchemaOptions, IDatasetRequest>;

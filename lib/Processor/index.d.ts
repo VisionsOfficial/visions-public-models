@@ -23,5 +23,9 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose" />
 /// <reference types="mongoose/types/inferschematype" />
-import { IProcessor } from "../typings/processor";
+import { IProcessor } from "../types/processor";
+/**
+ * @author Yanick Kifack
+ * @todo Verify relevance and what its for -> Documentation
+ */
 export declare const Processor: import("mongoose").Model<IProcessor, {}, {}, {}, any>;

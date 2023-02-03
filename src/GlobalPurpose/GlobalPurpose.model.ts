@@ -1,5 +1,5 @@
 import { Schema, Types } from "mongoose";
-import { IGlobalPurpose } from "../typings/globalpurpose";
+import { IGlobalPurpose } from "../types/globalpurpose";
 
 export const globalPurposeSchema = new Schema<IGlobalPurpose>(
 	{

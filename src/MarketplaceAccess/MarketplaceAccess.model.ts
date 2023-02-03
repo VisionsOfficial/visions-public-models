@@ -1,10 +1,15 @@
 import { Schema, Types } from "mongoose";
-import { IMarketplaceAccess } from "../typings/marketplaceaccess";
+import {
+	IMarketplaceAccess,
+	IMarketplaceAccessMethods,
+	IMarketplaceAccessModel,
+} from "../types/marketplaceaccess";
 
-/**
- * The list of services of a category that have agreed to the marketplace access
- */
-export const marketplaceAccessSchema = new Schema<IMarketplaceAccess>(
+export const marketplaceAccessSchema = new Schema<
+	IMarketplaceAccess,
+	IMarketplaceAccessModel,
+	IMarketplaceAccessMethods
+>(
 	{
 		services: [
 			{

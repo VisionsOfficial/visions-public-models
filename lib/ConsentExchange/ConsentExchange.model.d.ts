@@ -23,9 +23,5 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose/types/inferschematype" />
 import { Schema } from "mongoose";
-import { IConsentExchange } from "../typings/consentexchange";
-/**
- * Created when a user gives his consent for a service to
- * use or import his data from another service to that service
- */
+import { IConsentExchange } from "../types/consentexchange";
 export declare const consentExchangeSchema: Schema<IConsentExchange, import("mongoose").Model<IConsentExchange, any, any, any, any>, {}, {}, {}, {}, import("mongoose").DefaultSchemaOptions, IConsentExchange>;

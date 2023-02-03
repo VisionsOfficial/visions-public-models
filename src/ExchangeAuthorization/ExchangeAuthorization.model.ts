@@ -3,11 +3,8 @@ import {
 	IExchangeAuthorization,
 	IExchangeAuthorizationMethods,
 	IExchangeAuthorizationModel,
-} from "../typings/exchangeauthorization";
+} from "../types/exchangeauthorization";
 
-/**
- * The General Exchange Authorization between 2 services
- */
 export const exchangeAuthorizationSchema = new Schema<
 	IExchangeAuthorization,
 	IExchangeAuthorizationModel,

@@ -23,8 +23,5 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose/types/inferschematype" />
 import { Schema } from "mongoose";
-import { IMarketplaceAccess } from "../typings/marketplaceaccess";
-/**
- * The list of services of a category that have agreed to the marketplace access
- */
-export declare const marketplaceAccessSchema: Schema<IMarketplaceAccess, import("mongoose").Model<IMarketplaceAccess, any, any, any, any>, {}, {}, {}, {}, import("mongoose").DefaultSchemaOptions, IMarketplaceAccess>;
+import { IMarketplaceAccess, IMarketplaceAccessMethods, IMarketplaceAccessModel } from "../types/marketplaceaccess";
+export declare const marketplaceAccessSchema: Schema<IMarketplaceAccess, IMarketplaceAccessModel, IMarketplaceAccessMethods, {}, {}, {}, import("mongoose").DefaultSchemaOptions, IMarketplaceAccess>;

@@ -1,10 +1,6 @@
 import { Schema, Types } from "mongoose";
-import { IConsentExchange } from "../typings/consentexchange";
+import { IConsentExchange } from "../types/consentexchange";
 
-/**
- * Created when a user gives his consent for a service to
- * use or import his data from another service to that service
- */
 export const consentExchangeSchema = new Schema<IConsentExchange>(
 	{
 		dataUseExchange: {
@@ -65,7 +61,6 @@ export const consentExchangeSchema = new Schema<IConsentExchange>(
 			type: Types.ObjectId,
 			ref: "ConsentExchange",
 		},
-
 		isTest: {
 			type: Boolean,
 			default: false,

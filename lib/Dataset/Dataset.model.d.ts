@@ -23,8 +23,5 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose/types/inferschematype" />
 import { Schema } from "mongoose";
-import { IDataset } from "../typings/dataset";
-/**
- * Defines the data that a Data provider makes available to the network
- */
+import { IDataset } from "../types/dataset";
 export declare const datasetSchema: Schema<IDataset, import("mongoose").Model<IDataset, any, any, any, any>, {}, {}, {}, {}, import("mongoose").DefaultSchemaOptions, IDataset>;

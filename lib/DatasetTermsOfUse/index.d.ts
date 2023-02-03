@@ -23,5 +23,10 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose" />
 /// <reference types="mongoose/types/inferschematype" />
-import { IDatasetTermsOfUse } from "../typings/datasettermsofuse";
+import { IDatasetTermsOfUse } from "../types/datasettermsofuse";
+/**
+ * Defines the data that the data provider makes available through the network
+ * as well as setting out the terms and conditions for the use of such data.
+ * @author Felix Bole <felix@visionspol.eu>
+ */
 export declare const DatasetTermsOfUse: import("mongoose").Model<IDatasetTermsOfUse, {}, {}, {}, any>;

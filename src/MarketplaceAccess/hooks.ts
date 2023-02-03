@@ -1,7 +1,17 @@
 import { Schema, Types } from "mongoose";
-import { IMarketplaceAccess } from "../typings/marketplaceaccess";
+import {
+	IMarketplaceAccess,
+	IMarketplaceAccessMethods,
+	IMarketplaceAccessModel,
+} from "../types/marketplaceaccess";
 
-export const hooks = (schema: Schema<IMarketplaceAccess>) => {
+export const hooks = (
+	schema: Schema<
+		IMarketplaceAccess,
+		IMarketplaceAccessModel,
+		IMarketplaceAccessMethods
+	>
+) => {
 	schema.pre("save", function (next: any) {
 		const ma = this;
 

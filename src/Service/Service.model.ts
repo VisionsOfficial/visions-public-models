@@ -1,5 +1,5 @@
 import { Schema, Types } from "mongoose";
-import { IService } from "../typings/service";
+import { IService } from "../types/service";
 
 export const serviceSchema = new Schema<IService>(
 	{
@@ -48,51 +48,21 @@ export const serviceSchema = new Schema<IService>(
 		},
 		selfDescription: {
 			hasLegallyBindingName: { type: String, default: "" },
-
-			/**
-			 * vcard:Address
-			 */
 			hasLegallyBindingAddress: {
-				/**
-				 * vcard:street-address
-				 */
 				streetAddress: { type: String, default: "" },
-
-				/**
-				 * vcard:locality
-				 */
 				locality: { type: String, default: "" },
-
-				/**
-				 * vcard:country-name
-				 */
 				countryName: { type: String, default: "" },
 			},
 			hasLegalForm: { type: String, default: "" },
 			hasJurisdiction: { type: String, default: "" },
 			hasSalesTaxID: { type: String, default: "" },
 			hasLegalRegistrationNumber: { type: String, default: "" },
-			/**
-			 * xsd:anyURI
-			 */
 			hasWebAddress: { type: String, default: "" },
-
-			/**
-			 * Contact person for legal purposes
-			 * schema:Person
-			 * vcard:Agent
-			 */
 			hasIndividualContactLegal: {
 				givenName: { type: String, default: "" },
 				familyName: { type: String, default: "" },
 				email: { type: String, default: "" },
 			},
-
-			/**
-			 * Contact person for technical purposes
-			 * schema:Person
-			 * vcard:Agent
-			 */
 			hasIndividualContactTechnical: {
 				givenName: { type: String, default: "" },
 				familyName: { type: String, default: "" },

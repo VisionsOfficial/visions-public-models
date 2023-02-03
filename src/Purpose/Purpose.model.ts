@@ -1,10 +1,11 @@
 import { Schema, Types } from "mongoose";
-import { IPurpose } from "../typings/purpose";
+import { IPurpose, IPurposeMethods, IPurposeModel } from "../types/purpose";
 
-/**
- * What a service uses requested data for
- */
-export const purposeSchema = new Schema<IPurpose>(
+export const purposeSchema = new Schema<
+	IPurpose,
+	IPurposeModel,
+	IPurposeMethods
+>(
 	{
 		name: String,
 		description: String,

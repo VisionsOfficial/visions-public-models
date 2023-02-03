@@ -23,5 +23,12 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose" />
 /// <reference types="mongoose/types/inferschematype" />
-import { IDataType } from "../typings/datatype";
+import { IDataType } from "../types/datatype";
+/**
+ * A Public way of representing a service's type of data
+ * that it makes available to all other services
+ * @author Matthias De Bièvre
+ * @author Yanick Kifack
+ * @author Felix Bole
+ */
 export declare const DataType: import("mongoose").Model<IDataType, {}, {}, {}, any>;

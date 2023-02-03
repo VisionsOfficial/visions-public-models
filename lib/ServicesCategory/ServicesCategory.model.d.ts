@@ -23,5 +23,5 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose/types/inferschematype" />
 import { Schema } from "mongoose";
-import { IServicesCategory } from "../typings/servicescategory";
+import { IServicesCategory } from "../types/servicescategory";
 export declare const servicesCategorySchema: Schema<IServicesCategory, import("mongoose").Model<IServicesCategory, any, any, any, any>, {}, {}, {}, {}, import("mongoose").DefaultSchemaOptions, IServicesCategory>;

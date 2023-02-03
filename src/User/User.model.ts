@@ -1,5 +1,5 @@
-import { Types, Schema } from "mongoose";
-import { IUser } from "../typings/user";
+import { Schema } from "mongoose";
+import { IUser } from "../types/user";
 
 /**
  * User registered in Visions, acting as the user's central account
