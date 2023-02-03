@@ -1,5 +1,5 @@
 import { HydratedDocument, Model, Types } from "mongoose";
-import { AllSchemas } from "src/types/models";
+import { AllSchemas } from "./models";
 import { IUser } from "./user";
 
 type Endpoints = {

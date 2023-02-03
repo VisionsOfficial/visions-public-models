@@ -1,4 +1,4 @@
-import { AllSchemas } from "src/types/models";
+import { AllSchemas } from "./models";
 
 export interface IGlobalDataType extends AllSchemas {
 	name: string;

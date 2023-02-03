@@ -1,5 +1,5 @@
 import { Types } from "mongoose";
-import { AllSchemas } from "src/types/models";
+import { AllSchemas } from "./models";
 
 export interface ISSOApplication extends AllSchemas {
 	service?: Types.ObjectId;

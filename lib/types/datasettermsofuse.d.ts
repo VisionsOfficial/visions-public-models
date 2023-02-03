@@ -1,5 +1,5 @@
 import { Types } from "mongoose";
-import { AllSchemas } from "src/types/models";
+import { AllSchemas } from "./models";
 
 /**
  * Defines the data that the data provider makes available through the network

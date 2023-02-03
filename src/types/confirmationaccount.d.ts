@@ -1,5 +1,5 @@
 import { Model, Types } from "mongoose";
-import { AllSchemas } from "src/types/models";
+import { AllSchemas } from "./models";
 
 export interface IConfirmationAccount extends AllSchemas {
     email: string;
