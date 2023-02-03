@@ -7,7 +7,7 @@ import { IPurpose } from "src/types/purpose";
 type ServiceChecks = {
 	isUsingSSO: boolean;
 	isDataUser: boolean;
-	isDataProvier: boolean;
+	isDataProvider: boolean;
 
 	/**
 	 * Interop services can sit in between services during a
@@ -103,7 +103,7 @@ export interface IService extends AllSchemas {
 	name: string;
 	description?: string;
 	logo?: string;
-	password: string;
+	password?: string;
 	authMethod: number;
 
 	/**

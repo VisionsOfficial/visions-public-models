@@ -18,4 +18,6 @@ export { Purpose } from "./Purpose";
 export { Service } from "./Service";
 export { ServicesCategory } from "./ServicesCategory";
 export { SSOApplication } from "./SSOApplication";
+export { TestImportData } from "./TestImportData";
+export { TermsOfUse } from "./TermsOfUse";
 export { User } from "./User";
