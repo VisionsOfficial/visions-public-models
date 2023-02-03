@@ -1,3 +1,5 @@
+export { AuthenticationInfo } from "./AuthenticationInfo";
+export { ConfirmationAccount } from "./ConfirmationAccount";
 export { ConsentExchange } from "./ConsentExchange";
 export { Dataset } from "./Dataset";
 export { DatasetRequest } from "./DatasetRequest";
